@@ -2,9 +2,9 @@ import React from 'react'
 import {FaRegTrashAlt} from 'react-icons/fa';
 
 
-const LineItem = ({item, itemIndex, handleCheck, handleDelete}) => {
+const LineItem = ({item, handleCheck, handleDelete}) => {
   return (
-    <li className="item"   key={`item_${itemIndex}`}>
+    <li className="item">
 
         <input
             type="checkbox" 
